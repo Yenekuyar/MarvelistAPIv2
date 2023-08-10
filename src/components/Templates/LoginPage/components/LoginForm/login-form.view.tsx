@@ -6,9 +6,9 @@ export default function LoginForm() {
         <h2 className="login-title">Marvelist</h2>
         <form className="login-form" action="submit">
             <label className="login-label">Public Key</label>
-            <input className="login-input" type="text" required/>
+            <input className="login-input" type="text" id="public-key" placeholder="Insert your public key here..." required/>
             <label className="login-label">Private Key</label>
-            <input className="login-input" type="text" required/>
+            <input className="login-input" type="text" id="private-key" placeholder="Insert your private key here..." required/>
             <button className="login-button" type="submit">Submit</button>
         </form>
         <div>

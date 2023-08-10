@@ -4,6 +4,7 @@ export const StyledLoginForm = styled.div`
     background-color: ${props => props.theme.palette.primary};
     color: ${props => props.theme.palette.text};
     display: inline-block;
+    padding: 0 100px;
     margin-top: 200px;
     position: relative;
     border: 2px solid #000;
@@ -16,18 +17,27 @@ export const StyledLoginForm = styled.div`
     }
 
     .login-title {
-        font-size: 36px;
+        font-size: 48px;
     }
 
     .login-label {
-        font-size: 24px;
+        font-size: 36px;
+        padding-bottom: 2px;
     }
 
     .login-input {
-        width: 50%;
+        width: 100%;
         position: relative;
         border: 1px solid #000;
         border-radius: 2px;
         padding: 8px;
+    }
+
+    .login-button {
+        background-color: ${props => props.theme.palette.secondary};
+        border: 1px solid #000;
+        padding: 4px 16px;
+        font-size: 20px;
+        margin-top: 12px;
     }
 `
